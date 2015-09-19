@@ -7,7 +7,7 @@
  */
 require_once("CurlWorker.php");
 $url = $argv[1];
-$url = 'http://www.care2.com';
+
 try
 {
     $curl_worker = new CurlWorker($url);
